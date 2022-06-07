@@ -1,0 +1,81 @@
+-------------------------------------------------------------------------------
+Test set: in.co.gorest.userinfo.UserCURDTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.918 sec <<< FAILURE! - in in.co.gorest.userinfo.UserCURDTest
+test001(in.co.gorest.userinfo.UserCURDTest)  Time elapsed: 0.102 sec  <<< ERROR!
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)
+	at io.restassured.internal.RequestSpecificationImpl.<init>(RequestSpecificationImpl.groovy:132)
+	at io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)
+	at io.restassured.RestAssured.given(RestAssured.java:711)
+	at net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)
+	at in.co.gorest.userinfo.UserCURDTest.test001(UserCURDTest.java:44)
+
+test002(in.co.gorest.userinfo.UserCURDTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.<init>(RequestSpecificationImpl.groovy:132)
+	at io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)
+	at io.restassured.RestAssured.given(RestAssured.java:711)
+	at net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)
+	at in.co.gorest.userinfo.UserCURDTest.test002(UserCURDTest.java:58)
+
+test003(in.co.gorest.userinfo.UserCURDTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.<init>(RequestSpecificationImpl.groovy:132)
+	at io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)
+	at io.restassured.RestAssured.given(RestAssured.java:711)
+	at net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)
+	at in.co.gorest.userinfo.UserCURDTest.test003(UserCURDTest.java:88)
+
+test004(in.co.gorest.userinfo.UserCURDTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.<init>(RequestSpecificationImpl.groovy:132)
+	at io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)
+	at io.restassured.RestAssured.given(RestAssured.java:711)
+	at net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)
+	at in.co.gorest.userinfo.UserCURDTest.test004(UserCURDTest.java:121)
+

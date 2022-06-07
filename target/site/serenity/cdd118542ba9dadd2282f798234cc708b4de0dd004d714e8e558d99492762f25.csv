@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User CURD test with steps","This will create a new user","ERROR","2022-06-05T19:10:49.747+01:00[Europe/London]","0.0","0.27"
+"User CURD test with steps","Verify if the user was added to the application for name=Kiana Patel","ERROR","2022-06-05T19:10:50.420+01:00[Europe/London]","0.0","0.06"
+"User CURD test with steps","Update the user information and verify the updated information for ID=3866","ERROR","2022-06-05T19:10:50.519+01:00[Europe/London]","0.0","0.01"
+"User CURD test with steps","Delete the user and verify if the user is deleted! for ID=3868","ERROR","2022-06-05T19:10:50.534+01:00[Europe/London]","0.0","0.01"
